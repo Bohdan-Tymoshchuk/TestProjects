@@ -22,6 +22,8 @@
         {
             PlayerOne = playerOne;
             PlayerTwo = playerTwo;
+            for (var i = 0; i < 9; i++)
+                Checks.Add(new Check());
         }
         public List<Check> GetState()
         {
@@ -40,6 +42,7 @@
 
             Checks[check].number = number;
             Checks[check].color = player.color;
+            player.DeleteNumber(number);
         }
         public RoundState CheckWin(Player lastPlayer, Player anotherPlayer)
         {

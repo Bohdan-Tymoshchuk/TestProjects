@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using TicTacToe.WebAPI.Models;
 
 namespace TicTacToe.WebAPI.Controllers
 {
@@ -6,10 +7,6 @@ namespace TicTacToe.WebAPI.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -19,15 +16,16 @@ namespace TicTacToe.WebAPI.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<Check> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            var playerOne = new Player(Colors.Red);
+            var playerTwo = new Player(Colors.Green);
+            var round = new Round(playerOne, playerTwo);
+            
+            //TODO: handling exception
+            round.MakeMove(playerOne, 0, 1);
+            
+            return round.GetState();
         }
     }
 }

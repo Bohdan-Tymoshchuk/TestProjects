@@ -14,6 +14,9 @@
             this.color = color;
             numbers.AddRange(Enumerable.Range(1, 9));
         }
-        //TODO: when move is made, it's being deleted from available numbers
+        public void DeleteNumber(int number)
+        {
+            numbers.Remove(number);
+        }
     }
 }
