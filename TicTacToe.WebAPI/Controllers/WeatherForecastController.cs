@@ -18,8 +18,8 @@ namespace TicTacToe.WebAPI.Controllers
         [HttpGet]
         public IEnumerable<Check> Get()
         {
-            var playerOne = new Player(Colors.Red);
-            var playerTwo = new Player(Colors.Green);
+            var playerOne = new Player(Color.Red);
+            var playerTwo = new Player(Color.Green);
             var round = new Round(playerOne, playerTwo);
             
             //TODO: handling exception

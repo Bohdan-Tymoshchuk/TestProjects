@@ -4,7 +4,7 @@ namespace TicTacToe.WebAPI.Services
 {
     public interface IAuthenticationService
     {
-        public Task<bool> Register(User user);
-        public Task<bool?> LogIn(User user);
+        public Task<User?> Register(User user);
+        public Task<User?> LogIn(User user);
     }
 }

@@ -1,1 +1,47 @@
-[{"Login":"fghjkl;","Password":"fghjkl"},{"Login":"kjhgfds","Password":"sdfhgh"},{"Login":"sdfghjj","Password":"sdgfhjghbv"},{"Login":"bohdan_1603","Password":"123321"}]
+[
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Login": "fghjkl;",
+    "Password": "fghjkl"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Login": "kjhgfds",
+    "Password": "sdfhgh"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Login": "sdfghjj",
+    "Password": "sdgfhjghbv"
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Login": "bohdan_1603",
+    "Password": "123321"
+  },
+  {
+    "Id": "723c06c1-4b6b-4d58-841f-ba3b452816c9",
+    "Login": "sdfghjkl",
+    "Password": "zxcvgbhjkll"
+  },
+  {
+    "Id": "657e7b8c-9817-4dcd-8629-c7184fcf89ee",
+    "Login": "dfghjkl;",
+    "Password": "lkyjtgcvbk"
+  },
+  {
+    "Id": "c60f0426-63bf-400f-885d-051896508044",
+    "Login": "sdfghjk",
+    "Password": "dfdgfhgjghjhjkl"
+  },
+  {
+    "Id": "522e7598-ed9f-4cd2-b7b3-1c6c681942c2",
+    "Login": "dfghjkl",
+    "Password": "ghfgfhhjlk;"
+  },
+  {
+    "Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Login": "b",
+    "Password": "123321"
+  }
+]

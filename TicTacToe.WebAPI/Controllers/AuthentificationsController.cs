@@ -17,13 +17,13 @@ namespace TicTacToe.WebAPI.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<bool?> Login([FromBody] User user)
+        public async Task<User?> Login([FromBody] User user)
         {
             return await _authenticationService.LogIn(user);
         }
 
         [HttpPost("register")]
-        public async Task<bool> Register([FromBody] User user)
+        public async Task<User?> Register([FromBody] User user)
         {
             return await _authenticationService.Register(user);
         }

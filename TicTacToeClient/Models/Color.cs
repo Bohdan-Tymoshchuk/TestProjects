@@ -1,6 +1,6 @@
-﻿namespace TicTacToe.WebAPI.Models
+﻿namespace TicTacToeClient
 {
-    public enum Colors
+    public enum Color
     {
         Red,
         Green,

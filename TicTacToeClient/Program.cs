@@ -3,42 +3,101 @@ using System.Text;
 using TicTacToeClient;
 
 const string _baseApiUrl = "http://localhost:5094";
-var httpClient = new HttpClient();
-var attempt = 0;
 var ch = string.Empty;
-while(ch != "0")
+while (ch != "0")
 {
-    ActionToSingIn();
-    Console.WriteLine("Choose acton:");
-    ch = Console.ReadLine();
-    Line();
-    var isSuccessful = false;
-    switch (ch)
+    //var user = await Authorization();
+    var user = new User
     {
-        case "1":
-            isSuccessful = await LogInAsync();
-            if (!isSuccessful)
-            {
-                Console.WriteLine("Wrong Login or Password!");
-                Line();
-                attempt++;
-            }  
-            break;
+        Id = Guid.Parse("29dce3c8-39e8-4b03-883f-a1af976adb29"),
+        Login = "b",
+        Password = "123321"
+    };
+    var game = new Game();
+
+    ActionHelper.MainMenu();
+    Console.WriteLine("Choose action:");
+    ch = Console.ReadLine();
+
+
+    switch(ch)
+    {
         case "2":
-            isSuccessful = await RegisterAsync();
-            if (!isSuccessful)
-            {
-                Console.WriteLine("This Login is already exist!");
-                Line();
-                attempt++;
-            }
+            game = await CreateGame(user);
+
             break;
+        case "3":
+            Console.WriteLine("Enter id game:");
+            var isGuid = Guid.TryParse(Console.ReadLine(), out var gameId);
+            if(!isGuid)
+            {
+                Console.WriteLine("Wrong id");
+            }
+            var httpClient = new HttpClient();
+
+            var responseMessage = await httpClient.PostAsync($"{_baseApiUrl}/api/games/connect/{user?.Id}/{gameId}", null);
+            var response = await responseMessage.Content.ReadAsStringAsync();
+            game = JsonConvert.DeserializeObject<Game>(response);
+            break;
+
     }
-    if (attempt == 3)
-        Lock();
+
 }
 
-void ActionToSingIn()
+async Task<Game?> CreateGame(User? user)
+{
+    var httpClient = new HttpClient();
+
+    var responseMessage = await httpClient.PostAsync($"{_baseApiUrl}/api/games/create/{user?.Id}", null);
+    var response = await responseMessage.Content.ReadAsStringAsync();
+
+    var game = JsonConvert.DeserializeObject<Game>(response);
+
+    return game;
+}
+
+async Task<User?> Authorization()
+{
+    var httpClient = new HttpClient();
+    var attempt = 0;
+    
+    User? user = null;
+
+    while (user is null)
+    {
+        ActionHelper.ActionToSignIn();
+        Console.WriteLine("Choose acton:");
+        ch = Console.ReadLine();
+        ActionHelper.Line();
+        switch (ch)
+        {
+            case "1":
+                user = await Authentification.LogInAsync();
+                if (user is null)
+                {
+                    Console.WriteLine("Wrong Login or Password!");
+                    ActionHelper.Line();
+                    attempt++;
+                }
+                break;
+            case "2":
+                user = await Authentification.RegisterAsync();
+                if (user is null)
+                {
+                    Console.WriteLine("This Login is already exist!");
+                    ActionHelper.Line();
+                    attempt++;
+                }
+                break;
+        }
+        if (attempt == 3)
+            Authentification.Lock();
+    }
+
+    return user;
+}
+
+/*void ActionToSingIn()
 {
     Console.WriteLine("1. Log in");
     Console.WriteLine("2. Register");
@@ -112,7 +171,7 @@ async Task<bool> LogInAsync()
     var issSuccessfulLogIn = JsonConvert.DeserializeObject<bool>(response);
 
     return issSuccessfulLogIn;
-}
+}*/
 
 
 

@@ -1,16 +1,19 @@
 ﻿using System.Text.Json;
+using System.Xml;
 using TicTacToe.WebAPI.Models;
 
 namespace TicTacToe.WebAPI.Services
 {
     public class AuthenticationService : IAuthenticationService
     {
-        public async Task<bool> Register(User user)
+        public async Task<User?> Register(User user)
         {
             if (user == null || user?.Login == null || user?.Password == null)
             {
-                return false;
+                return null;
             }
+
+            user.Id = Guid.NewGuid();
 
             var users = await GetAll();
 
@@ -18,21 +21,21 @@ namespace TicTacToe.WebAPI.Services
 
             if (isUserExist)
             {
-                return false;
+                return null;
             }
 
             await Add(user);
 
-            return true;
+            return user;
         }
 
-        public async Task<bool?> LogIn(User user)
+        public async Task<User?> LogIn(User user)
         {
             var users = await GetAll();
 
-            var isUserExist = users?.Any(x => x?.Login?.ToUpper() == user?.Login?.ToUpper() && x?.Password == user?.Password);
+            var foundUser = users?.FirstOrDefault(x => x?.Login?.ToUpper() == user?.Login?.ToUpper() && x?.Password == user?.Password);
 
-            return isUserExist;
+            return foundUser;
         }
 
         private async Task<List<User?>?> GetAll()
@@ -51,7 +54,7 @@ namespace TicTacToe.WebAPI.Services
         {
             var users = await GetAll();
             users?.Add(user);
-            string jsonString = JsonSerializer.Serialize(users);
+            string jsonString = JsonSerializer.Serialize(users, new JsonSerializerOptions { WriteIndented = true });
             using var writer = File.CreateText("users.json");
             await writer.WriteAsync(jsonString);
         }

@@ -1,0 +1,11 @@
+[
+  {
+    "Id": "265453e8-024c-48cb-9b19-831ea2d35976",
+    "Player1Id": "c60f0426-63bf-400f-885d-051896508044",
+    "Player2Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "WinnerId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": null
+  }
+]

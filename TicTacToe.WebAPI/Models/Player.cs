@@ -2,14 +2,14 @@
 {
     public class Player
     {
-        public Colors color { get; }
+        public Color color { get; }
         public List<int> numbers = new();
         public Player()
         {
-            color = Colors.Red;
+            color = Color.Red;
             numbers.AddRange(Enumerable.Range(1, 9));
         }
-        public Player(Colors color)
+        public Player(Color color)
         {
             this.color = color;
             numbers.AddRange(Enumerable.Range(1, 9));
