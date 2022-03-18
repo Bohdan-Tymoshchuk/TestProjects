@@ -8,6 +8,13 @@
             Console.WriteLine("2. Register");
         }
 
+        public static void WrongData(string name)
+        {
+            Console.WriteLine($"Wrong {name}!");
+            Console.WriteLine("Try enter again!");
+            Line();
+        }
+
         public static void Line()
         {
             Console.WriteLine("___________________________________");

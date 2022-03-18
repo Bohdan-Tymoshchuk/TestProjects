@@ -6,9 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddTransient<IAuthenticationService, AuthenticationService>();
-builder.Services.AddTransient<IGameService, GameService>();
-builder.Services.AddTransient<GameRepository>();
+builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+builder.Services.AddScoped<IGameService, GameService>();
+builder.Services.AddScoped<IBotService, BotService>();
+builder.Services.AddScoped<GameRepository>();
+
 
 var app = builder.Build();
 

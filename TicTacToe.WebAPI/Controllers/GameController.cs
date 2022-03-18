@@ -10,10 +10,13 @@ namespace TicTacToe.WebAPI.Controllers
     public class GameController : ControllerBase
     {
         private readonly IGameService _gameService;
+        private readonly IBotService? _botService;
 
-        public GameController(IGameService gameService)
+
+        public GameController(IGameService gameService, IBotService? botService)
         {
             _gameService = gameService;
+            _botService = botService;
         }
 
         [HttpPost("create/{playerId}")]
@@ -26,6 +29,24 @@ namespace TicTacToe.WebAPI.Controllers
         public async Task<Game?> Connect(Guid playerId, Guid gameId)
         {
             return await _gameService.ConnectToGame(playerId, gameId);
+        }
+
+        [HttpGet("info/{playerId}/{gameId}")]
+        public async Task<GameResponce?> GetInfo(Guid playerId, Guid gameId)
+        {
+            return await _gameService.GetInfo(playerId, gameId);
+        }
+
+        [HttpPost("move")]
+        public Task<GameMoveResponse?> SetMove(GameRequest gameRequest)
+        {
+            return _gameService.SetMove(gameRequest);
+        }
+
+        [HttpPost("bot/{botId}/{gameId}")]
+        public async Task<bool?> MakeBotMove(Guid botId, Guid gameId)
+        {
+            return await _botService.MakeBotMove(botId, gameId);
         }
     }
 }

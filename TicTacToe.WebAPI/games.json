@@ -1,11 +1,1839 @@
 [
   {
-    "Id": "265453e8-024c-48cb-9b19-831ea2d35976",
-    "Player1Id": "c60f0426-63bf-400f-885d-051896508044",
-    "Player2Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "GameType": 0,
+    "Id": "2b7005da-eb3a-4fba-8874-414d65b3a31f",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "926779d9-7ac0-4fe8-8f83-565c37c0a275",
     "WinnerId": null,
+    "LastPlayerMoveId": null,
     "Player1Color": 0,
     "Player2Color": 1,
-    "GameMoves": null
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "beaedea7-b036-4b2f-afc4-b9189311a192",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": null,
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": null,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "74ec5dbb-a437-4758-b250-22711da77c4b",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "0442dce2-39a5-4318-a217-ef964b39b115",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "901b4b49-d4e4-4ebc-bce9-a295e992a78c",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "3f483cf9-f859-4e3d-b7f3-56dc51918848",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "cd237b47-7c12-444e-8858-fac325fa19a2",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "86d3c4cd-8ded-495e-bb5a-5aea80b4e785",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "bc78e6e1-49af-4620-b4e7-772007101d4b",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "8adcddd3-16c5-4a01-b249-2daa21621d85",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "0873b2df-fa39-41f1-8c63-383267193397",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "b3c1e33a-8232-4532-81c1-df4d14f242f9",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "6514f0fc-ded8-4a1b-a82b-5637436e1155",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "db75276f-1a1d-4cd7-bce1-aaebf2579b8c",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "828d1a00-1b44-410d-afb3-046fc39305a7",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "58207405-73a5-4584-9f96-782424ac4c5a",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "f9b25927-5515-4f94-8bb5-7db79588544f",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": null,
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": null,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "d2b8a735-62a9-40e4-9e69-95a4057e38d5",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "092d9e05-9946-47f1-adb0-06ec62725130",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "98fdf319-b927-4ba1-8f66-eda2ff22151c",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "14f173c8-9c66-4ea0-961e-a08197f03425",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "e57ce1b2-63e8-47c5-b048-459c89c25b24",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "7fdd83ee-71a5-44d2-87d2-a57aca443029",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "0ee55bee-368a-464d-9ac8-5c69b338b560",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "be2a8fdd-bb75-47c2-ba91-781586b33f79",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "94ed4c48-6644-46e0-9617-82275b390b2d",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "8690e4ca-324f-4381-ae3a-eca6816347ed",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "7ddc6b23-6d62-4e04-89a8-fda15d12a732",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "98e71b39-4496-44aa-adee-ccc34b315759",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "fff1bac0-6fb7-4504-902c-0789094ceb13",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "ca75d6ed-fc5c-41cd-8ab6-e735a77f3a1d",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "b181c387-8767-43ea-9e71-934cc19fbaed",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "c8f1b105-8ed3-49f0-ab2f-c86b19e1d98e",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "c0e06d5b-d930-46b8-9b54-7f7a234cb092",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "bf45913e-2943-4bb9-90e8-f534f106561a",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "b17f1f57-13a0-4c2a-aff1-c9048ab57642",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "ac017ce9-aee1-45cd-9804-8f4c41cd20d3",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "114d76ee-a2c0-46a8-a216-8e0d5dcb4e29",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "76a5e693-016a-4219-9b88-d433f5c50467",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "78733416-9e89-440e-a7ed-03dea9312feb",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "35ab36ef-52de-4bd8-a1e2-087ac42c962e",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "476d5ddd-1133-402f-87f1-f443be38e1d4",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "f6c9030a-3bd4-4be8-990c-1718aa5c9a7d",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "d7699d19-27d2-4bfd-89a3-e102a6f858ef",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": null,
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": null,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "46086d4e-afbd-4f14-a974-d918902b72e9",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "3d30956f-5f02-41bc-9823-9d273298b0a1",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "00000000-0000-0000-0000-000000000000",
+        "Color": null,
+        "Section": 0,
+        "Number": 0
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "0b132278-0cf0-4d0a-9a95-77d12a5f3b9b",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "c3881685-925c-4942-8c62-cfa25b4f11bd",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "31fced91-9555-42ae-a24c-86f9404925d9",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "14974489-88a7-4e20-b5ca-f415f9ef09e7",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "c53cdfdc-227b-4148-8da1-7591739a0706",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "fe1da5c9-33dc-4bd0-b970-e711f5bec03a",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "b75aa4ce-d9ac-47e3-8d9c-2f8143a9725e",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "79ae8703-af14-41ae-b686-0354382ba1da",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 3
+      },
+      {
+        "PlayerId": "79ae8703-af14-41ae-b686-0354382ba1da",
+        "Color": null,
+        "Section": 7,
+        "Number": 7
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 5,
+        "Number": 6
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "b258d587-afcb-4510-9f73-88d2ff2837b2",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "98d3d1e4-ecfb-482e-bcd1-4fb1aa7d05ca",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "691477d5-9004-41c2-b6a8-ec6b550deb83",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "e6d61bee-3657-413f-9cd0-c8e5427d39b8",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 7
+      },
+      {
+        "PlayerId": "e6d61bee-3657-413f-9cd0-c8e5427d39b8",
+        "Color": null,
+        "Section": 7,
+        "Number": 7
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 5,
+        "Number": 1
+      },
+      {
+        "PlayerId": "e6d61bee-3657-413f-9cd0-c8e5427d39b8",
+        "Color": null,
+        "Section": 8,
+        "Number": 3
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 3,
+        "Number": 9
+      },
+      {
+        "PlayerId": "e6d61bee-3657-413f-9cd0-c8e5427d39b8",
+        "Color": null,
+        "Section": 9,
+        "Number": 5
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 6,
+        "Number": 3
+      },
+      {
+        "PlayerId": "e6d61bee-3657-413f-9cd0-c8e5427d39b8",
+        "Color": null,
+        "Section": 4,
+        "Number": 7
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 2,
+        "Number": 3
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "13c1eba7-95ee-4023-9f5f-30bfcd35bcae",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "7d0c8bfc-da25-48cc-9df1-4cbcf9ccc48f",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "a6c3a9cf-0d99-48a7-9cee-8121a04e4fa5",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "da67c912-a814-4175-8800-570c5a51051b",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "76f4f88a-ed70-40ff-8d05-1b186ea346f7",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "ab066071-1e3a-4b60-aef6-59b366115c1d",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": null,
+        "Section": 1,
+        "Number": 1
+      },
+      {
+        "PlayerId": "ab066071-1e3a-4b60-aef6-59b366115c1d",
+        "Color": null,
+        "Section": 5,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "3daf2698-3bef-4bac-97b7-b8e9eae1ad35",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "f394b3b0-bcbb-49bc-8791-332eb3723d47",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "376930f1-2d18-4da4-b860-968e11ba4c82",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "3f801e34-3baa-4dd2-8ec4-c81975f6072c",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "53edf256-9748-4001-a9cf-467a2172044b",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "96a5a499-7342-4fe5-b107-2a0fe293170d",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "833f60ee-da96-4c34-9ecb-41b0e5a8ed76",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "717f5116-77b5-4ee3-a5d6-a91a077cc08c",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 0,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "e6ad7671-51cf-4ae3-97f5-cdbecd6dc1b1",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "98c90108-fb4c-4b2c-9f0b-db787a73953e",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 0,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "35f8ec5e-aa37-4226-90db-b62be24fcb68",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "32061bd5-6acd-4fa1-bf27-6201baf6b964",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 0,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "f80cd5a1-ed8c-4015-ac56-4b3db1b2d417",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "433de0e3-6b09-44e1-bb9d-77f3ed7924eb",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 0,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "e6b650f1-566b-4e2b-be2b-937ab56285c5",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "06b22c75-5e67-4dcd-98c0-7d9779dc778a",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 0,
+    "Player2Color": 1,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 0,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "2c0d883e-75f6-4275-8370-bba221ade200",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "8d7c150d-b23d-4c6b-b067-880d2787fc10",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "c6aebcd7-4fe6-46b6-b43e-8d47f36ab97f",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "5ef19e2b-cc4d-4214-ab8c-1ceb1accb3b0",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "12020ff7-f290-4732-85b2-d73df9b8facc",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "f9eb2fbf-9e46-4ff8-96d1-70a268cc0af5",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "10a794ba-878e-4ff3-9a16-05546ecb51c1",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "97b14f3a-3d2b-4eb8-8d2b-70b7cfeaa82f",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "24a867c0-8f43-445b-aa32-3154cace706e",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "03af3d4e-da2d-4a0c-b1d9-a6f8d2c3e18f",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      },
+      {
+        "PlayerId": "03af3d4e-da2d-4a0c-b1d9-a6f8d2c3e18f",
+        "Color": null,
+        "Section": 4,
+        "Number": 5
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 2
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "d5fe56a5-d48c-4cd5-932e-529e37a3d137",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "c3bc8f3d-2332-4572-a038-56c831b38cc9",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      },
+      {
+        "PlayerId": "c3bc8f3d-2332-4572-a038-56c831b38cc9",
+        "Color": null,
+        "Section": 7,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "37495c98-fabf-42e7-8480-6f3c774d5bd5",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "8a31b035-9d7e-488e-aa2f-04ddaa968aba",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      },
+      {
+        "PlayerId": "8a31b035-9d7e-488e-aa2f-04ddaa968aba",
+        "Color": null,
+        "Section": 7,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "4b861303-ee46-4b83-b080-088ec428cd0b",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "fe9d4372-806d-4cfc-88b0-94a702f2ebac",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "fe9d4372-806d-4cfc-88b0-94a702f2ebac",
+        "Color": 10,
+        "Section": 7,
+        "Number": 9
+      },
+      {
+        "PlayerId": "fe9d4372-806d-4cfc-88b0-94a702f2ebac",
+        "Color": 10,
+        "Section": 5,
+        "Number": 6
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "3624576a-7b98-4067-9fd5-f7156565dd5a",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "4dd96688-e037-4937-b575-a45c0bc8978a",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      },
+      {
+        "PlayerId": "4dd96688-e037-4937-b575-a45c0bc8978a",
+        "Color": 10,
+        "Section": 5,
+        "Number": 2
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "4261494f-06a8-42b7-ab5b-a6a65253f308",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "0eda0d61-65dd-46dd-885d-8d202157f468",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 4,
+        "Number": 5
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "5b0b5626-7a43-435b-9e1a-bd2b5d1b2924",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "56b8472f-cf01-421f-94be-7b65ad550929",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 3
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "28f2e9c5-8dfc-442c-9bfa-8a7302e23bbe",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "6097a9c7-e3fc-48dc-ab6b-ad74d4dd8598",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 3,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "ccb4194b-9bfc-49a2-aa90-07a7417a7753",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "76168597-1377-4d01-aa9e-6b133c9ea41a",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 3
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "537600fa-d1f9-4cd5-bdf4-729a64b7d89c",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "053c88ec-dfd1-46d3-971d-4cdaab94d926",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "8b4c9bb5-51e7-45e0-be82-57c56702d61e",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "44b09906-da8d-46c0-bcb4-7b032efb4e11",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 2
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "f6ef5297-067e-4922-a5e2-cc64c09ad6fc",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "c9157ab4-5fd2-415d-b752-ae2245712f4d",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 3,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "0ccc3032-1bf5-4873-8a76-364f6b219734",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "db666cad-45cb-4775-b5ad-6a375b2cfffa",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 9
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "fee114ec-75f3-4344-88e3-0f21006e68c8",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "b80f2b20-0e77-4b3e-9a7d-fdd2b2d51ed1",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 3
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "1bf6c4a8-0f17-4f6b-ae46-9f6d28840b86",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "b94821d6-588b-450d-bb0d-20f3acdaf262",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 3
+      },
+      {
+        "PlayerId": "b94821d6-588b-450d-bb0d-20f3acdaf262",
+        "Color": 10,
+        "Section": 1,
+        "Number": 3
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 4,
+        "Number": 5
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "ff3e6b4d-9618-44fd-a5e8-e995d9d2c22d",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "b17683e1-bf96-45af-9149-5b61361e21b1",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 5,
+        "Number": 9
+      },
+      {
+        "PlayerId": "b17683e1-bf96-45af-9149-5b61361e21b1",
+        "Color": 10,
+        "Section": 4,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "785ff337-c2f4-48bf-aac9-8aa082a81872",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "767ee5cd-4747-4cd2-8924-176c06e9171e",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 6,
+        "Number": 9
+      },
+      {
+        "PlayerId": "767ee5cd-4747-4cd2-8924-176c06e9171e",
+        "Color": 10,
+        "Section": 7,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "f8f3d02c-bbe6-4102-a522-31a58c81856d",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "06a469b7-5547-4e43-a9d3-46b7a93c23b3",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 6,
+        "Number": 8
+      },
+      {
+        "PlayerId": "06a469b7-5547-4e43-a9d3-46b7a93c23b3",
+        "Color": 10,
+        "Section": 3,
+        "Number": 6
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 8,
+        "Number": 9
+      },
+      {
+        "PlayerId": "06a469b7-5547-4e43-a9d3-46b7a93c23b3",
+        "Color": 10,
+        "Section": 1,
+        "Number": 9
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "fcc65f93-3437-4132-afee-bad8356d9c6c",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "51c09c4c-0ef8-4a37-a061-951b7a9c1b21",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "51c09c4c-0ef8-4a37-a061-951b7a9c1b21",
+        "Color": 10,
+        "Section": 5,
+        "Number": 6
+      },
+      {
+        "PlayerId": "51c09c4c-0ef8-4a37-a061-951b7a9c1b21",
+        "Color": 10,
+        "Section": 8,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "af609ef3-9a24-405c-8890-59af405e60ac",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "0e82c3cc-b2c1-42dd-8b57-7f557d592da5",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "0e82c3cc-b2c1-42dd-8b57-7f557d592da5",
+        "Color": 12,
+        "Section": 6,
+        "Number": 8
+      },
+      {
+        "PlayerId": "0e82c3cc-b2c1-42dd-8b57-7f557d592da5",
+        "Color": 10,
+        "Section": 3,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "9331755d-83fb-422c-a664-f04437263207",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "5d956315-7e68-493a-96de-5dd70973aa6f",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 9,
+        "Number": 5
+      },
+      {
+        "PlayerId": "5d956315-7e68-493a-96de-5dd70973aa6f",
+        "Color": 10,
+        "Section": 2,
+        "Number": 4
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 5,
+        "Number": 5
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 4,
+        "Number": 5
+      },
+      {
+        "PlayerId": "5d956315-7e68-493a-96de-5dd70973aa6f",
+        "Color": 10,
+        "Section": 6,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "1f8c75cf-cf25-47fc-9f52-b8c8234d1100",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "1fcb5b36-dfe0-424c-ae79-caaeed55718b",
+    "WinnerId": null,
+    "LastPlayerMoveId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "1fcb5b36-dfe0-424c-ae79-caaeed55718b",
+        "Color": 10,
+        "Section": 1,
+        "Number": 9
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 3,
+        "Number": 3
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 7,
+        "Number": 7
+      },
+      {
+        "PlayerId": "1fcb5b36-dfe0-424c-ae79-caaeed55718b",
+        "Color": 10,
+        "Section": 8,
+        "Number": 8
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 4,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "e9017b3d-ca47-425c-aa96-85c1e997266b",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "6acab91b-1d5b-4b0f-acc1-ad04f5e300fb",
+    "WinnerId": null,
+    "LastPlayerMoveId": "6acab91b-1d5b-4b0f-acc1-ad04f5e300fb",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 5
+      },
+      {
+        "PlayerId": "6acab91b-1d5b-4b0f-acc1-ad04f5e300fb",
+        "Color": 10,
+        "Section": 8,
+        "Number": 4
+      },
+      {
+        "PlayerId": "6acab91b-1d5b-4b0f-acc1-ad04f5e300fb",
+        "Color": 10,
+        "Section": 5,
+        "Number": 9
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 6,
+        "Number": 7
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 9,
+        "Number": 1
+      },
+      {
+        "PlayerId": "6acab91b-1d5b-4b0f-acc1-ad04f5e300fb",
+        "Color": 10,
+        "Section": 4,
+        "Number": 4
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 3,
+        "Number": 2
+      },
+      {
+        "PlayerId": "6acab91b-1d5b-4b0f-acc1-ad04f5e300fb",
+        "Color": 10,
+        "Section": 7,
+        "Number": 8
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "38df62d0-7d1c-4c61-9087-eb5dd310e718",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "442e8433-bdcc-4d10-92ef-0de8c8bd162f",
+    "WinnerId": null,
+    "LastPlayerMoveId": "442e8433-bdcc-4d10-92ef-0de8c8bd162f",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 5
+      },
+      {
+        "PlayerId": "442e8433-bdcc-4d10-92ef-0de8c8bd162f",
+        "Color": 10,
+        "Section": 8,
+        "Number": 1
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 5,
+        "Number": 5
+      },
+      {
+        "PlayerId": "442e8433-bdcc-4d10-92ef-0de8c8bd162f",
+        "Color": 10,
+        "Section": 9,
+        "Number": 5
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "54301059-f189-47ac-9ff1-53f3b53cb76c",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "4b98434a-5352-4828-a1d9-3034b27f1bc6",
+    "WinnerId": null,
+    "LastPlayerMoveId": "4b98434a-5352-4828-a1d9-3034b27f1bc6",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 1
+      },
+      {
+        "PlayerId": "4b98434a-5352-4828-a1d9-3034b27f1bc6",
+        "Color": 10,
+        "Section": 8,
+        "Number": 4
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "ca4115ef-3b70-4c2f-847b-9f0fc26c8891",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "e8695b2a-e526-4cd9-bb2b-dfce005e9c71",
+    "WinnerId": null,
+    "LastPlayerMoveId": "e8695b2a-e526-4cd9-bb2b-dfce005e9c71",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "e8695b2a-e526-4cd9-bb2b-dfce005e9c71",
+        "Color": 10,
+        "Section": 1,
+        "Number": 9
+      },
+      {
+        "PlayerId": "e8695b2a-e526-4cd9-bb2b-dfce005e9c71",
+        "Color": 10,
+        "Section": 8,
+        "Number": 4
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 5,
+        "Number": 6
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 6,
+        "Number": 2
+      },
+      {
+        "PlayerId": "e8695b2a-e526-4cd9-bb2b-dfce005e9c71",
+        "Color": 10,
+        "Section": 3,
+        "Number": 2
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 4,
+        "Number": 6
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 5
+      },
+      {
+        "PlayerId": "e8695b2a-e526-4cd9-bb2b-dfce005e9c71",
+        "Color": 10,
+        "Section": 9,
+        "Number": 9
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "66ff0fd6-b70d-433e-b708-f7f865ac52b8",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "45801346-671c-45b0-bc66-61d2b72f47ea",
+    "WinnerId": null,
+    "LastPlayerMoveId": "45801346-671c-45b0-bc66-61d2b72f47ea",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 5
+      },
+      {
+        "PlayerId": "45801346-671c-45b0-bc66-61d2b72f47ea",
+        "Color": 10,
+        "Section": 2,
+        "Number": 5
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 5,
+        "Number": 6
+      },
+      {
+        "PlayerId": "45801346-671c-45b0-bc66-61d2b72f47ea",
+        "Color": 10,
+        "Section": 8,
+        "Number": 8
+      },
+      {
+        "PlayerId": "45801346-671c-45b0-bc66-61d2b72f47ea",
+        "Color": 10,
+        "Section": 9,
+        "Number": 8
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "edd4815c-3d44-4483-8623-245a44e571b8",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "3fde9786-ceff-45ef-9d58-286bf5378832",
+    "WinnerId": null,
+    "LastPlayerMoveId": "3fde9786-ceff-45ef-9d58-286bf5378832",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 5
+      },
+      {
+        "PlayerId": "3fde9786-ceff-45ef-9d58-286bf5378832",
+        "Color": 10,
+        "Section": 8,
+        "Number": 9
+      },
+      {
+        "PlayerId": "3fde9786-ceff-45ef-9d58-286bf5378832",
+        "Color": 10,
+        "Section": 5,
+        "Number": 9
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 6
+      },
+      {
+        "PlayerId": "3fde9786-ceff-45ef-9d58-286bf5378832",
+        "Color": 10,
+        "Section": 7,
+        "Number": 7
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 9,
+        "Number": 5
+      },
+      {
+        "PlayerId": "3fde9786-ceff-45ef-9d58-286bf5378832",
+        "Color": 10,
+        "Section": 4,
+        "Number": 2
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 3,
+        "Number": 9
+      },
+      {
+        "PlayerId": "3fde9786-ceff-45ef-9d58-286bf5378832",
+        "Color": 10,
+        "Section": 6,
+        "Number": 7
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "99505460-9b56-40a8-b7e6-a72de8c2968c",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "4369119d-c575-453c-9b45-e347b92a3a8f",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "08abf4d5-9c8b-49d9-9e44-7788e8b0031d",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "e96d7dfc-4ed6-4c53-9dde-0b64b583bcc5",
+    "WinnerId": null,
+    "LastPlayerMoveId": null,
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": []
+  },
+  {
+    "GameType": 0,
+    "Id": "cfc900ec-4a54-4224-bf3a-b028617ff961",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "dab27677-4f98-43ba-ac54-16cd730ddadb",
+    "WinnerId": null,
+    "LastPlayerMoveId": "dab27677-4f98-43ba-ac54-16cd730ddadb",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "dab27677-4f98-43ba-ac54-16cd730ddadb",
+        "Color": 10,
+        "Section": 1,
+        "Number": 9
+      },
+      {
+        "PlayerId": "dab27677-4f98-43ba-ac54-16cd730ddadb",
+        "Color": 10,
+        "Section": 6,
+        "Number": 7
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 3
+      },
+      {
+        "PlayerId": "dab27677-4f98-43ba-ac54-16cd730ddadb",
+        "Color": 10,
+        "Section": 9,
+        "Number": 4
+      },
+      {
+        "PlayerId": "dab27677-4f98-43ba-ac54-16cd730ddadb",
+        "Color": 10,
+        "Section": 4,
+        "Number": 4
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 5,
+        "Number": 2
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 8,
+        "Number": 3
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "ea2eefb8-9e65-4b21-97d6-940e3d4285e0",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "efb53fa4-352e-4a31-a041-b523e4ac2640",
+    "WinnerId": "efb53fa4-352e-4a31-a041-b523e4ac2640",
+    "LastPlayerMoveId": "efb53fa4-352e-4a31-a041-b523e4ac2640",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "efb53fa4-352e-4a31-a041-b523e4ac2640",
+        "Color": 10,
+        "Section": 1,
+        "Number": 3
+      },
+      {
+        "PlayerId": "efb53fa4-352e-4a31-a041-b523e4ac2640",
+        "Color": 10,
+        "Section": 4,
+        "Number": 2
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 1
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 3,
+        "Number": 1
+      },
+      {
+        "PlayerId": "efb53fa4-352e-4a31-a041-b523e4ac2640",
+        "Color": 10,
+        "Section": 7,
+        "Number": 9
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "f5118719-4810-44e9-8179-36cb25bfdaca",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "4478fd66-f291-475d-b3e2-2c6a44894f83",
+    "WinnerId": "4478fd66-f291-475d-b3e2-2c6a44894f83",
+    "LastPlayerMoveId": "4478fd66-f291-475d-b3e2-2c6a44894f83",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 2
+      },
+      {
+        "PlayerId": "4478fd66-f291-475d-b3e2-2c6a44894f83",
+        "Color": 10,
+        "Section": 3,
+        "Number": 5
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 2,
+        "Number": 1
+      },
+      {
+        "PlayerId": "4478fd66-f291-475d-b3e2-2c6a44894f83",
+        "Color": 10,
+        "Section": 5,
+        "Number": 8
+      },
+      {
+        "PlayerId": "4478fd66-f291-475d-b3e2-2c6a44894f83",
+        "Color": 10,
+        "Section": 6,
+        "Number": 6
+      },
+      {
+        "PlayerId": "4478fd66-f291-475d-b3e2-2c6a44894f83",
+        "Color": 10,
+        "Section": 9,
+        "Number": 3
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 4,
+        "Number": 1
+      }
+    ]
+  },
+  {
+    "GameType": 0,
+    "Id": "733fdd74-7ee3-4978-8a52-a989ad9370f6",
+    "Player1Id": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player2Id": "24c14acd-5db5-494d-ad43-11484c7a70f8",
+    "WinnerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "LastPlayerMoveId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+    "Player1Color": 12,
+    "Player2Color": 10,
+    "GameMoves": [
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 1,
+        "Number": 5
+      },
+      {
+        "PlayerId": "24c14acd-5db5-494d-ad43-11484c7a70f8",
+        "Color": 10,
+        "Section": 7,
+        "Number": 9
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 5,
+        "Number": 5
+      },
+      {
+        "PlayerId": "24c14acd-5db5-494d-ad43-11484c7a70f8",
+        "Color": 10,
+        "Section": 2,
+        "Number": 6
+      },
+      {
+        "PlayerId": "29dce3c8-39e8-4b03-883f-a1af976adb29",
+        "Color": 12,
+        "Section": 9,
+        "Number": 1
+      }
+    ]
   }
 ]

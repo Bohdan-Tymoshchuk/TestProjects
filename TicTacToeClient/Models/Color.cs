@@ -2,8 +2,8 @@
 {
     public enum Color
     {
-        Red,
-        Green,
-        White //default color for void check
+        Red = 12,
+        Green = 10,
+        White = 15 //default color for void check
     }
 }
